@@ -1,0 +1,8 @@
+wechat:
+  mp:
+    configs:
+        appid: appid1
+        secret: arr1_secret
+        token: arr1_token
+        aesKey: arr1_key
+        msgDataFormat: JSON

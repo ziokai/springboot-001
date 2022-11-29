@@ -1,0 +1,28 @@
+druid:
+  spl:testOnReturn: false
+  maxActive:
+    20
+    testWhileIdle:
+      true
+      initialSize:
+        1min
+        EvictableIdleTimeMillis:
+          300000
+          username:
+            xxx
+            password:
+              ENC(18etWJ76Y2tWkCkpyHblBD/D9gKXqexKjE/4V8QQbUKOsNyhJiHaIt)url:
+                jdbc:sql
+                server:xxx
+                driver-class-name:com.microsoft.sqlserver.jdbc.SQLServerDrivervalidationQuery:
+                    select 'x'name:
+                      ds-splminIdle:
+                        1type:
+                          com.alibaba.druid.pool.DruidDataSourcemaxOpenPreparedStatements:
+                            20poolPreparedStatements:
+                              truetimeBetweenEvictionRunsMillis:
+                                60000maxWait:
+                                  60000testOnBorrow:
+                                    falsefilters:
+                                      statloginUsername:
+                                        ENC(abuy9KM/GDIAL01Aq1mhij2BLsBUn7AHx7B+hhpt39yCLhonyR6Dh5gu1oCy73)loginPassword: ENC(eANv67gB3c2AjdlJCSB0ko/3l9WD3DAf3IXkLHQ/qL/1+3hxi5wGBbaXSQewzr)
